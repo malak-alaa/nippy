@@ -1,0 +1,144 @@
+@media (max-width : 992px) {
+/* *header  */
+    header {
+        background-image: url(../img/header/img-hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:   center;
+    }
+  
+    header .sec-nav .container nav {
+        display: none;
+    }
+    header .sec-nav .container i {
+        display: block; 
+    }
+    header .sec-nav {
+        max-height: 9vh;
+
+
+    }
+
+/* -header  */
+
+/* *about */
+    .about .container .about-img{
+        display: none;
+    }
+/* -about */
+
+/* *Products */
+.Products .container .Products-text h2 {
+    font-size: 1.5rem;
+}
+.Products .container .Products-text .div-icon h5 {
+    font-size: 0.7rem;
+}
+.Products .Products-sec{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows:repeat(2 , 250px) ;
+    gap: 20px;
+}
+.Products .container .text5-products{
+    position: relative;
+    bottom: 93px;
+
+}
+/* -Products */
+
+
+/* *sec3 */
+.sec3 .container{
+    justify-content: space-between;
+}
+.sec3 .container .sec3-text h5{
+    font-size: 0.9rem;
+}
+.sec3 .container .sec3-text h4{
+    font-size: 1.5rem;
+}
+/* -sec3 */
+
+
+/* *Stay in touc-sec4 */
+    .touc-sec4 .img-sec4 img{
+        display: none;
+    }
+    .touc-sec4 .text-sec4{
+        padding: 70px 0;
+        padding-left: 100px;
+        width: 400px;
+    }
+ 
+/* -Stay in touc-sec4 */
+
+
+/* *sec5 */
+    .sec5 .container img {
+        width: 50px;
+    }
+    .sec5 .container img:hover {
+        width: 60px;
+        transform: rotate(5deg);
+      
+    }
+/* -sec5 */
+
+/* *footer */
+footer .container div{
+    width: 100px;
+    margin: 30px;
+}
+/* -footer */
+
+}
+
+@media (min-width : 992px) and (max-width : 1073px) {
+/* *about */
+
+    .about .container .about-text{
+        width: 26.4rem;
+        padding: 3rem;
+    }
+/* -about */
+
+
+/* *Stay in touc-sec4 */
+
+    .touc-sec4 .img-sec4 img{
+        width: 550px;
+    }
+    .touc-sec4 .text-sec4{
+        width: 380px;
+    }
+
+
+/* -Stay in touc-sec4 */
+
+
+/* *footer */
+    footer .container div{
+        width: 130px;
+        margin: 30px;
+}
+/* -footer */
+
+
+}
+@media (min-width :1073px) and (max-width : 1200px ){
+
+/* *Stay in touc-sec4 */
+    .touc-sec4 .img-sec4 img{
+        width: 550px;
+    }
+    .touc-sec4 .text-sec4{
+        width: 380px;
+    }
+/* -Stay in touc-sec4 */
+footer .container div{
+    width: 130px;
+    margin: 40px;
+}
+
+}
