@@ -15,8 +15,6 @@
     }
     header .sec-nav {
         max-height: 9vh;
-
-
     }
 
 /* -header  */
@@ -25,6 +23,14 @@
     .about .container .about-img{
         display: none;
     }
+    .about .container .about-text .p-1{
+        padding: 1rem 0;
+        font-size: 1rem;
+     }
+     .about .container .about-text .p-2{
+         font-size: 0.7rem;  
+     }
+     
 /* -about */
 
 /* *Products */
@@ -62,15 +68,31 @@
 
 
 /* *Stay in touc-sec4 */
+
     .touc-sec4 .img-sec4 img{
         display: none;
     }
     .touc-sec4 .text-sec4{
-        padding: 70px 0;
-        padding-left: 100px;
-        width: 400px;
+        padding: 20px 0;
+        width: 350px;
     }
+    .touc-sec4 .text-sec4 :nth-child(2) {
+        padding: 1rem 0;
+        font-size: 1rem;
  
+    }
+    .touc-sec4 .text-sec4 :nth-child(3) {
+
+        font-size: 0.6rem;
+
+    }
+    .touc-sec4 .text-sec4  form .input-email{
+        width: 230px;
+    }
+    .touc-sec4 .text-sec4  form .input-submit{
+        font-size: 10px;
+    
+    }
 /* -Stay in touc-sec4 */
 
 
@@ -86,13 +108,33 @@
 /* -sec5 */
 
 /* *footer */
-footer .container div{
-    width: 100px;
-    margin: 30px;
+
+footer{
+    min-height: 250px;
 }
+footer .container {
+    grid-template-columns: repeat(2 , 1fr);
+}
+footer .container div{
+    width: 110px;
+    margin: 20px;
+}
+footer .container .socail-link {
+    gap: 5px;
+}
+
+
 /* -footer */
 
 }
+@media (min-width : 700px) and (max-width : 992px) {
+    .touc-sec4 .img-sec4 img {
+        width: 350px;
+        display: block;
+    }
+
+}
+
 
 @media (min-width : 992px) and (max-width : 1073px) {
 /* *about */
